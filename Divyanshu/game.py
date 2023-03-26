@@ -6,7 +6,7 @@ screen = pg.display.set_mode((800,400))
 pg.display.set_caption('Runner')
 clock = pg.time.Clock()
 test_font = pg.font.Font('font/Pixeltype.ttf',50)
- 
+   
 sky_surface = pg.image.load('graphics/sky.png').convert()
 ground_surface = pg.image.load('graphics/ground.png').convert()
 score_surf = test_font.render(' My game ',False,'Black')
