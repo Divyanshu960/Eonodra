@@ -46,7 +46,7 @@ while True:
 
     screen.blit(snail_surf,snail_rect)
     screen.blit(player_surf,player_rect)
-
+  
     keys = pg.key.get_pressed()
     if keys[pg.K_SPACE]:
         print('jump')
