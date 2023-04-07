@@ -28,7 +28,7 @@ while True:
             if (player_rect.collidepoint(event.pos)):
                 print("Collision")
         if event.type == pg.KEYUP:
-            print('keydown')
+            print('keydown') 
         if event.type == pg.KEYDOWN:
             print('keyup')
         
