@@ -3,5 +3,3 @@
 Pygame based game
     
  
-  
-  
